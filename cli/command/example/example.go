@@ -1,7 +1,7 @@
 package example
 
 import (
-	"github.com/Telmate/proxmox-api-go/cli"
+	"github.com/br4v3st4rr/proxmox-api-go/cli"
 	"github.com/spf13/cobra"
 )
 

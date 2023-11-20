@@ -3,7 +3,7 @@ package storagesubtests
 import (
 	"testing"
 
-	"github.com/Telmate/proxmox-api-go/proxmox"
+	"github.com/br4v3st4rr/proxmox-api-go/proxmox"
 )
 
 var SMBFull = proxmox.ConfigStorage{
