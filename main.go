@@ -17,6 +17,7 @@ import (
 	"github.com/br4v3st4rr/proxmox-api-go/proxmox"
 )
 
+// test
 func main() {
 	if os.Getenv("NEW_CLI") == "true" {
 		err := cli.Execute()
