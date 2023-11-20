@@ -956,7 +956,7 @@ func (config ConfigQemu) CloneVm(sourceVmr *VmRef, vmr *VmRef, client *Client) (
 		fullClone = strconv.Itoa(*config.FullClone)
 	}
 	if disk0Storage, ok := config.QemuDisks[0]["storage"].(string); ok && len(disk0Storage) > 0 {
-		storage = disk0Storage
+		//storage = disk0Storage
 	}
 	params := map[string]interface{}{
 		"newid":  vmr.vmId,
